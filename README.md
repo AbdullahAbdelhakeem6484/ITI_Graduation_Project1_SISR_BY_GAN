@@ -15,25 +15,19 @@
 <table style="width:100%">
   <tr>
     <th>Model</th>
-    <th>Top-1 Accuracy</th>
-    <th>Batch Size (Videos)</th>
-    <th>Input Frames</th>
-    <th>Inference Time (Videos/sec)</th>
+    <th>PSNR</th>
+    <th>SSIM</th>
+    <th>Batch Size</th>
+    <th>Image<th>
   </tr>
   
   <tr>
-    <td></td> <td></td>  <td></td>  <td></td>  <td></td>
+    <td></td> <td></td>  <td></td>  <td></td>  <td></td> <td><img src="" ></td>
   </tr>
  
  
   
 </table>
-
-
-
-
-
-
 
 <h1 color="green"><b>Inference</b></h1>
 <p>Run the infer.py script and pass the required arguments (modelPath, streaming, inputPath, outputPath, sequenceLength, skip, showInfo) <br>
