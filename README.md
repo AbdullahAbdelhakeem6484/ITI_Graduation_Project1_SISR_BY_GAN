@@ -22,7 +22,7 @@
   </tr>
   
   <tr>
-    <td></td> <td></td>  <td></td>  <td></td>  <td></td> <td><img src="" ></td>
+    <td></td> <td></td>  <td></td>  <td></td>  <td></td> <td></td>
   </tr>
  
  
@@ -30,39 +30,36 @@
 </table>
 
 <h1 color="green"><b>Inference</b></h1>
-<p>Run the infer.py script and pass the required arguments (modelPath, streaming, inputPath, outputPath, sequenceLength, skip, showInfo) <br>
+<p>Run the infer.py script and pass the required arguments (modelPath, inputPath, outputPath) <br>
 
 python -m infer \ <br>
---modelPath="./FDSC/models/model_16_m3_0.8888.pth" \ <br>
---streaming=False \ <br>
---inputPath="./inputTestVideo.mp4" `Or Streaming Url in case of streaming = True` \ <br>
---outputPath="./outputVideo.mp4" \ <br>
---sequenceLength=16 \ <br>
---skip=2 \ <br>
---showInfo=True </p> <br>
+--modelPath="" \ <br>
+--inputPath=" " `Or Image Url ` \ <br>
+--outputPath="" \ <br>
 
 
 
 
-<h1 color="green"><b>Instructions to Install our Fight Detection Package</b></h1>
+
+<h1 color="green"><b>Instructions to Install our SRGAN Package</b></h1>
 <p>Our Package can be found in this link.
- <a href="https://pypi.org/project/Fight-Detection/0.0.3/">https://pypi.org/project/Fight-Detection/0.0.3/</a></p>
+ <a href="https://pypi.org/......">https://pypi.org/..../</a></p>
 
 1. Install:
 
 ```python
 
 ```
-2. Download Our Finetuned Model Weights:
+2. Download Our Model:
 
 ```python
 import gdown
 url = 'https://drive.google.com/uc?id=1MWDeLnpEaZDrKK-OjmzvYLxfjwp-GDcp'
-output = 'model_16_m3_0.8888.pth'
+output = 'generatoe_model.h5'
 gdown.download(url, output, quiet=False)
 ```
 
-3. Show the Output Video with Detection:
+3. Show the Output Image:
 
 ```python
 
