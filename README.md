@@ -37,6 +37,11 @@ The visual quality of generated images will be observed. In addition standard qu
 <p align="center">
 <img src="https://www.researchgate.net/profile/Minjun-Li-3/publication/319187018/figure/fig2/AS:529633181667329@1503285798147/Generator-Architecture.png"></p>
 
+<p align="center">
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/Untitled-drawing-1-13.png"></p>
+
+
+
 <p>There are B residual blocks (16), originated by ResNet. Within the residual block, two convolutional layers are used, with small 3×3 kernels and 64 feature maps followed by batch-normalization layers and ParametricReLU as the activation function.
 
 The resolution of the input image is increased with two trained sub-pixel convolution layers.
