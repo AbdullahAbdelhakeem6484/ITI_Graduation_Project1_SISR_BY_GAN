@@ -29,9 +29,9 @@
 </div>
 
 
-<center align="center">
+<h1 align="center">
 <h1><font size="+4">Single Image Super Resolution (SRGAN)</font></h1>
-</center>
+</h1>
 
 ---
 
