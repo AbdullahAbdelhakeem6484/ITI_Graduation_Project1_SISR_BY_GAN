@@ -81,8 +81,7 @@ This generator architecture also uses parametric ReLU as an activation function 
 <ul><li>SRGAN was able to generate state-of-the-art results which the author validated with extensive Mean Opinion Score (MOS) test on three public benchmark datasets.</ul></li>
   
  <h1>References:</h1> 
-  ![paper](https://drive.google.com/file/d/1UBXO2l-sAA48Aeqb2jAjLcCxArwEW98t/view?usp=sharing)
-  
+  <a href="https://drive.google.com/file/d/1UBXO2l-sAA48Aeqb2jAjLcCxArwEW98t/view?usp=sharing" target="SRGAN PAPER">Google</a>
 
 <h1 color="green"><b>Inference</b></h1>
 <p>Run the infer.py script and pass the required arguments (modelPath, inputPath, outputPath) <br>
