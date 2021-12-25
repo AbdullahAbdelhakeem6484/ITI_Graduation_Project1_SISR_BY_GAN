@@ -52,10 +52,27 @@ This generator architecture also uses parametric ReLU as an activation function 
 <p>The task of the discriminator is to discriminate between real HR images and generated SR images.   The discriminator architecture used in this paper is similar to DC- GAN architecture with LeakyReLU as activation. The network contains eight convolutional layers with of 3×3 filter kernels, increasing by a factor of 2 from 64 to 512 kernels. Strided convolutions are used to reduce the image resolution each time the number of features is doubled. The resulting 512 feature maps are followed by two dense layers and a leakyReLU applied between and a final sigmoid activation function to obtain a probability for sample classification.</p> 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45875057/147367593-46f68e54-8dc6-4c3d-ae8f-d94bb682b621.png"></p>
+ 
+ <p align="center">
+ <img src="https://media.geeksforgeeks.org/wp-content/uploads/Untitled-drawing-38.jpg"></p>
           
     
           
-          
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
           
  <h1>Loss Function:</h1>
 
