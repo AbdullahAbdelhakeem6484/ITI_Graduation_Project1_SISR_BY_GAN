@@ -88,13 +88,6 @@ The visual quality of generated images will be observed. In addition standard qu
  
  
  
-  <tr>
-    <td><img src="https://media.geeksforgeeks.org/wp-content/uploads/20200619230513/SRGAN.jpg" width=270 height=480></td>
-    <td><img src="images/gan1.png" width=270 height=480></td>
-  </tr>
- 
- 
- 
  
  <h1>Generator Architecture:</h1>
 
