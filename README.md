@@ -25,10 +25,7 @@ The visual quality of generated images will be observed. In addition standard qu
  <p align="center">
 <img src="images/img srgan.png">
 </p>
-<p align="center">
-<img src="images/gan1.png">
-</p>
- 
+
  
  
 </p>
@@ -38,6 +35,9 @@ The visual quality of generated images will be observed. In addition standard qu
 <h1>Architecture</h1>
 <p>: Similar to GAN architectures, the Super Resolution GAN also contains two parts Generator and Discriminator where generator produces some data based on the probability distribution and discriminator tries to guess weather data coming from input dataset or generator.  Generator than tries to optimize the generated data so that it can fool the discriminator. Below are the generator and discriminator architectural details:</p>
  <p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20200619230513/SRGAN.jpg"></p>
+ <p align="center">
+<img src="images/gan1.png">
+</p>
  
  
  <h1>Generator Architecture:</h1>
