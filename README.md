@@ -22,6 +22,12 @@ The Generator upsamples LR images by 4x and will be trained to generate SR image
 The discriminator will be trained to distinguish between HR/SR images; the GAN loss is backpropagated to the discriminator and the generator.
 Evaluation
 The visual quality of generated images will be observed. In addition standard quantitative metrics, Peak Signal-to-Noise Ratio and Structural Similarity Index (PSNR, SSIM), will be used to assess the results.
+ <p align="center">
+<img src="images/img srgan.png">
+</p>
+ 
+ 
+ 
 </p>
 <h1>SRGAN</h1>
 <p> was proposed by researchers at Twitter. The motive of this architecture is to recover finer textures from the image when we upscale it so that it’s quality cannot be compromised. There are other methods such as Bilinear Interpolation that can be used to perform this task but they suffer from image information loss and smoothing. In this paper, the authors proposed two architectures the one without GAN (SRResNet) and one with GAN (SRGAN). It is concluded that SRGAN has better accuracy and generate image more pleasing to eyes as compared to SRGAN.</p>
@@ -143,7 +149,9 @@ python -m infer \ <br>
 --modelPath="model.h5" \ <br>
 --inputPath="lr_image_path" `Or Image Url ` \ <br>
 --outputPath="sr_image_path" \ <br>
-
+<p align="center">
+<img src="images/inferimg2.jpg">
+          </p>
 
 
 
@@ -176,9 +184,12 @@ LR_img,SR_img = srgan_utils.SRGAN_predict(lr_image_path"image.jpg", model_path="
 4. show Super Resolution image:
 
 ```python
+show_image(LR_img)
 show_image(SR_img)
 ```
-
+<p align="center">
+<img src="images/out1.PNG">
+</p>
 
 
 
