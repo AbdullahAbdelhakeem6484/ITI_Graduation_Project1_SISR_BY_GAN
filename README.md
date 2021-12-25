@@ -45,12 +45,17 @@ This generator architecture also uses parametric ReLU as an activation function 
 
   During the training, A high-resolution image (HR) is downsampled to a low-resolution image (LR). The generator architecture than tries to upsample the image from low resolution to super-resolution. After then the image is passed into the discriminator, the discriminator and tries to distinguish between a super-resolution and High-Resolution image and generate the adversarial loss which then backpropagated into the generator architecture.</p>
  
+ 
+ 
  <h1>Discriminator Architecture: </h1>
 
 <p>The task of the discriminator is to discriminate between real HR images and generated SR images.   The discriminator architecture used in this paper is similar to DC- GAN architecture with LeakyReLU as activation. The network contains eight convolutional layers with of 3×3 filter kernels, increasing by a factor of 2 from 64 to 512 kernels. Strided convolutions are used to reduce the image resolution each time the number of features is doubled. The resulting 512 feature maps are followed by two dense layers and a leakyReLU applied between and a final sigmoid activation function to obtain a probability for sample classification.</p> 
  <p align="center">
- <img src="https://user-images.githubusercontent.com/45875057/147367593-46f68e54-8dc6-4c3d-ae8f-d94bb682b621.png"></p>
-
+ <img src="https://user-images.githubusercontent.com/45875057/147367593-46f68e54-8dc6-4c3d-ae8f-d94bb682b621.png">
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/Untitled-drawing-38.jpg></p>
+          
+          
+          
  <h1>Loss Function:</h1>
 
 <p>The SRGAN uses perpectual loss function (LSR)  which is the weighted sum of two loss components : content loss and adversarial loss. This loss is very important for the performance of the generator architecture:</p>
