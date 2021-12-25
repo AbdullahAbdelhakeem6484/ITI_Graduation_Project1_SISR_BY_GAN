@@ -42,22 +42,11 @@ This generator architecture also uses parametric ReLU as an activation function 
  
 
 <h1 color="green"><b>Results</b></h1>
-<table style="width:100%">
-  <tr>
-    <th>Model</th>
-    <th>PSNR</th>
-    <th>SSIM</th>
-    <th>Batch Size</th>
-    <th>Image<th>
-  </tr>
-  
-  <tr>
-    <td></td> <td></td>  <td></td>  <td></td>  <td></td> <td></td>
-  </tr>
- 
+
+<p align="center">
+ <img src="images/result.PNG">
  
   
-</table>
 
 <h1 color="green"><b>Inference</b></h1>
 <p>Run the infer.py script and pass the required arguments (modelPath, inputPath, outputPath) <br>
