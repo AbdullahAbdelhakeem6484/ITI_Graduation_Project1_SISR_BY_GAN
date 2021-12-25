@@ -150,12 +150,12 @@ python -m infer \ <br>
 
 <h1 color="green"><b>Instructions to Install our SRGAN Package</b></h1>
 <p>Our Package can be found in this link.
- <a href="https://pypi.org/project/SuperResolution-GANs/0.0.3/">https://pypi.org/project/SuperResolution-GANs/0.0.3/</a></p>
+ <a href="https://pypi.org/project/SuperResolution-GANs/0.0.4/">https://pypi.org/project/SuperResolution-GANs/0.0.4/</a></p>
 
 1. Install:
 
 ```python
-pip install SuperResolution-GANs==0.0.3
+pip install SuperResolution-GANs==0.0.4
 ```
 2. Download Our Model:
 
