@@ -1,7 +1,7 @@
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/45875057/147384662-7fafb48c-b92a-4f3e-8f30-f6adc6931d85.png">
 </p>
-<div style="float:right">
+<div align="center" style="float:right">
 <table style="width:100%">
   <tr>
     <th>NO.</th>
@@ -29,7 +29,7 @@
 </div>
 
 
-<center>
+<center align="center">
 <h1><font size="+4">Single Image Super Resolution (SRGAN)</font></h1>
 </center>
 
