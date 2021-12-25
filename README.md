@@ -75,12 +75,24 @@ The visual quality of generated images will be observed. In addition standard qu
 <h1>SRGAN</h1>
 <p> was proposed by researchers at Twitter. The motive of this architecture is to recover finer textures from the image when we upscale it so that it’s quality cannot be compromised. There are other methods such as Bilinear Interpolation that can be used to perform this task but they suffer from image information loss and smoothing. In this paper, the authors proposed two architectures the one without GAN (SRResNet) and one with GAN (SRGAN). It is concluded that SRGAN has better accuracy and generate image more pleasing to eyes as compared to SRGAN.</p>
  
+ 
+ 
+ 
+ 
 <h1>Architecture</h1>
 <p>: Similar to GAN architectures, the Super Resolution GAN also contains two parts Generator and Discriminator where generator produces some data based on the probability distribution and discriminator tries to guess weather data coming from input dataset or generator.  Generator than tries to optimize the generated data so that it can fool the discriminator. Below are the generator and discriminator architectural details:</p>
  <p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20200619230513/SRGAN.jpg"></p>
  <p align="center">
 <img src="images/gan1.png">
 </p>
+ 
+ <p float="left">
+  <img src="img src="https://media.geeksforgeeks.org/wp-content/uploads/20200619230513/SRGAN.jpg" width="100" />
+  <img src="images/gan1.png" width="100" /> 
+</p>
+ 
+ 
+ 
  
  
  <h1>Generator Architecture:</h1>
