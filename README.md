@@ -73,6 +73,16 @@ This generator architecture also uses parametric ReLU as an activation function 
  <p align="center">
  <img src="images/result2.PNG"></p>
   
+  
+  <h3>The main contributions of this paper is:</h3>
+
+<ul><li>This paper generates state-of-the-art results on upsampling (4x) as measured by PNSR (Peak Signal-to-Noise Ratio) and SSIM(Structural Similarity) with 16 block deep SRResNet network optimize for MSE.
+<ul><li>The authors propose a new  Super Resolution GAN in which the authors replace the MSE based content loss with the  loss calculated on VGG layer
+<ul><li>SRGAN was able to generate state-of-the-art results which the author validated with extensive Mean Opinion Score (MOS) test on three public benchmark datasets.
+  
+  
+  
+  
 
 <h1 color="green"><b>Inference</b></h1>
 <p>Run the infer.py script and pass the required arguments (modelPath, inputPath, outputPath) <br>
