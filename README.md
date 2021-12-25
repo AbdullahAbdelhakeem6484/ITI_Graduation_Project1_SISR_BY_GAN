@@ -25,6 +25,9 @@ The visual quality of generated images will be observed. In addition standard qu
  <p align="center">
 <img src="images/img srgan.png">
 </p>
+<p align="center">
+<img src="images/gan1.png">
+</p>
  
  
  
