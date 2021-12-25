@@ -53,7 +53,9 @@ This generator architecture also uses parametric ReLU as an activation function 
 <img width="40%" height="40%" src="https://user-images.githubusercontent.com/45875057/147381291-e4ce1041-1326-4f0b-bdca-eaa2cfc2df2a.png">
 </p>
  
- 
+<p>In the above layer MSE means we take simple  mean squared pixelwise error as content loss, VGG22 indicate the feature map obtained by the 2nd convolution (after activation) before the 2nd maxpooling layer within the VGG19 network and wwe calculate the VGG loss using formula described above. This loss is  thus loss on the low-level features. Similarly VGG 54 uses loss calculated on the the feature map obtained by the 4th convolution (after activation) before the 5th maxpooling layer within the VGG19 network. This represents loss on  higher level features from deeper network layers with more potential to focus on the content of the images</p>
+
+
  
  
  
