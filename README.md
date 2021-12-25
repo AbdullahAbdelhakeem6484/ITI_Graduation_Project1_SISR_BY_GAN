@@ -80,8 +80,8 @@ This generator architecture also uses parametric ReLU as an activation function 
 <ul><li>The authors propose a new  Super Resolution GAN in which the authors replace the MSE based content loss with the  loss calculated on VGG layer</ul></li>
 <ul><li>SRGAN was able to generate state-of-the-art results which the author validated with extensive Mean Opinion Score (MOS) test on three public benchmark datasets.</ul></li>
   
-  
-  
+ <h1>References:</h1> 
+  [paper](https://drive.google.com/file/d/1UBXO2l-sAA48Aeqb2jAjLcCxArwEW98t/view?usp=sharing)
   
 
 <h1 color="green"><b>Inference</b></h1>
