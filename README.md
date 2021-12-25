@@ -87,8 +87,8 @@ The visual quality of generated images will be observed. In addition standard qu
 </p>
  
  <p float="left">
-  <img src="img src="https://media.geeksforgeeks.org/wp-content/uploads/20200619230513/SRGAN.jpg" width="100" />
-  <img src="images/gan1.png" width="100" /> 
+  <img src="img src="https://media.geeksforgeeks.org/wp-content/uploads/20200619230513/SRGAN.jpg" width="50%" />
+  <img src="images/gan1.png" width="100%" /> 
 </p>
  
  
