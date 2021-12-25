@@ -140,14 +140,13 @@ This process keeps repeating as long as the Discriminator keeps classifying the 
 <ul><li>SRGAN was able to generate state-of-the-art results which the author validated with extensive Mean Opinion Score (MOS) test on three public benchmark datasets.</ul></li>
 
  <h1>Applications of GAN:</h1> 
-<ul>
-<ol>Generating Images</ol>
-<ol>Super Resolution</ol>
-<ol>Image Modification</ol>
-<ol>Photo realistic images</ol>
-<ol>Face Ageing
-
-</ul>
+<ol type="1">
+<li>Generating Images</li>
+<li>Super Resolution</li>
+<li>Image Modification</li>
+<li>Photo realistic images</li>
+<li>Face Ageing</li>
+ </ol>
 
   
  <h1>References:</h1> 
