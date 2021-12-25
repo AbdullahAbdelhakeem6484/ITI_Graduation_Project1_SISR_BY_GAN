@@ -174,6 +174,7 @@ python -m infer \ <br>
 
 ```python
 pip install SuperResolution-GANs==0.0.4
+pip install -r requirements.txt
 ```
 2. Download Our Model:
 
