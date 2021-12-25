@@ -49,18 +49,7 @@ The visual quality of generated images will be observed. In addition standard qu
 <p align="center">
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/Untitled-drawing-1-13.png"></p>
 
-<p align="center">
-img_A = 'https://www.researchgate.net/profile/Minjun-Li-3/publication/319187018/figure/fig2/AS:529633181667329@1503285798147/Generator-Architecture.png'
-img_B = 'https://media.geeksforgeeks.org/wp-content/uploads/Untitled-drawing-1-13.png'
 
-HTML(f"""
-    <div class="row">
-            <img src={img_A} style="width:30%"> </img>
-            <img src={img_B} style="width:25.5%"> </img>
-            
-    </div>
-    """)
-    </p>
 
 
 
