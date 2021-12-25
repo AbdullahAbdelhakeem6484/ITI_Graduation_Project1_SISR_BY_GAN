@@ -1,6 +1,49 @@
 <p  align="center">
-<img src="https://user-images.githubusercontent.com/45875057/147377970-41846090-aeb3-4600-97a3-85566f94f982.png">
+<img src="https://user-images.githubusercontent.com/45875057/147384662-7fafb48c-b92a-4f3e-8f30-f6adc6931d85.png">
 </p>
+<div style="float:right">
+<table style="width:100%">
+  <tr>
+    <th>NO.</th>
+    <th>Name</th>
+    <th>E-mail</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Abdullah Abdelhakeem</td>
+    <td>abdullah.abdelhakeem25@gmail.com</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Ahmed Ibrahim</td>
+    <td>ahmedibeahim75@gmail.com</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Ahmed Gamal</td>
+    <td>agamalagamaleg@gmail.com</td>
+  </tr>
+  
+</table>
+
+</div>
+
+
+<center>
+<h1><font size="+4">Single Image Super Resolution (SRGAN)</font></h1>
+</center>
+
+---
+
+
+
+
+
+
+
+
+
+
 
 <h1>Introduction</h1>
 <p>
