@@ -194,7 +194,9 @@ LR_img,SR_img = srgan_utils.SRGAN_predict(lr_image_path"image.jpg", model_path="
 4. show Super Resolution image:
 
 ```python
+#Original Image (Low Resolution)
 show_image(LR_img)
+#Super Resolution Image
 show_image(SR_img)
 ```
 <p align="center">
