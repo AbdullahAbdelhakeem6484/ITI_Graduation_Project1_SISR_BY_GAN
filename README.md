@@ -86,11 +86,12 @@ The visual quality of generated images will be observed. In addition standard qu
 <img src="images/gan1.png">
 </p>
  
- <p float="left">
-  <img src="img src="https://media.geeksforgeeks.org/wp-content/uploads/20200619230513/SRGAN.jpg" width="50%" />
-  <img src="images/gan1.png" width="100%" /> 
-</p>
  
+ 
+  <tr>
+    <td><img src="https://media.geeksforgeeks.org/wp-content/uploads/20200619230513/SRGAN.jpg" width=270 height=480></td>
+    <td><img src="images/gan1.png" width=270 height=480></td>
+  </tr>
  
  
  
