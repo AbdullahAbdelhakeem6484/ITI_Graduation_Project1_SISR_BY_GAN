@@ -2,7 +2,27 @@
 <img src="https://user-images.githubusercontent.com/45875057/147377970-41846090-aeb3-4600-97a3-85566f94f982.png">
 </p>
 
+<h1>Introduction</h1>
+<p>
+ The computational enhancement of image resolution, is known as super-resolution. Generative Adversarial Networks (GANs) are one of newer methods that have been applied to super resolution and in this notebook we use a Super-Resolution GAN (SRGAN) to enhance subsampled OCT scans.
 
+The SRGAN, introduced in 2016, addressed the issue of reconstructing high resolution (HR) images from low resolution (LR) images such that fine texture detail in the reconstructed super resolution (SR) images was not lost. Here the authors used a perceptual loss instead of a pixel-wise Mean Squared Error (MSE) loss. MSE loss approaches give a high Peak Signal-to-Noise (PSNR) value, but they also tend to produce overly-smooth images with insufficient high-frequency details. The perceptual loss by contrast has a content loss component that computes pixel-wise differences in feature space (not pixel space) and this results in an SR image that is closer to the subjective evaluation of human observers.
+
+The SRGAN model uses a deep neural network (built with residual blocks) and optimized using perceptual loss in a GAN framework.
+A VGG-19 network is used for feature extraction; this allows us to compute the feature distance between the original and generated images sent through the feature extractor.
+
+This architecture used a pre-trained VGG-19 feature extractor and gave photorealistic results on large (4x) upsampled low resolution images. It has been applied to the DIV2K, CelebA and other natural image datasets and here we want to see how it performs on OCT data. This network will serve as a baseline for further experiments with upscaling, choice of feature extractor etcetera.
+
+The SRGAN is implemented as follows:
+
+Training
+
+We downsample HR OCT images by 4x to synthetically create LR training data. This gives us pairs of HR and LR images for the training data set.
+The Generator upsamples LR images by 4x and will be trained to generate SR images.
+The discriminator will be trained to distinguish between HR/SR images; the GAN loss is backpropagated to the discriminator and the generator.
+Evaluation
+The visual quality of generated images will be observed. In addition standard quantitative metrics, Peak Signal-to-Noise Ratio and Structural Similarity Index (PSNR, SSIM), will be used to assess the results.
+</p>
 <h1>SRGAN</h1>
 <p> was proposed by researchers at Twitter. The motive of this architecture is to recover finer textures from the image when we upscale it so that it’s quality cannot be compromised. There are other methods such as Bilinear Interpolation that can be used to perform this task but they suffer from image information loss and smoothing. In this paper, the authors proposed two architectures the one without GAN (SRResNet) and one with GAN (SRGAN). It is concluded that SRGAN has better accuracy and generate image more pleasing to eyes as compared to SRGAN.</p>
  
