@@ -138,6 +138,17 @@ This process keeps repeating as long as the Discriminator keeps classifying the 
 <ul><li>This paper generates state-of-the-art results on upsampling (4x) as measured by PNSR (Peak Signal-to-Noise Ratio) and SSIM(Structural Similarity) with 16 block deep SRResNet network optimize for MSE.</ul></li>
 <ul><li>The authors propose a new  Super Resolution GAN in which the authors replace the MSE based content loss with the  loss calculated on VGG layer</ul></li>
 <ul><li>SRGAN was able to generate state-of-the-art results which the author validated with extensive Mean Opinion Score (MOS) test on three public benchmark datasets.</ul></li>
+
+ <h1>Applications of GAN:</h1> 
+<ul>
+<ol>Generating Images</ol>
+<ol>Super Resolution</ol>
+<ol>Image Modification</ol>
+<ol>Photo realistic images</ol>
+<ol>Face Ageing
+
+</ul>
+
   
  <h1>References:</h1> 
   <ul><li><a href="https://drive.google.com/file/d/1UBXO2l-sAA48Aeqb2jAjLcCxArwEW98t/view?usp=sharing" target="_blank">SRGAN PAPER</a></ul></li>
