@@ -62,8 +62,7 @@ This generator architecture also uses parametric ReLU as an activation function 
 
 <ul><li><b>Content Loss:</b> We use two types of content loss in this paper : pixelwise MSE loss for the SRResnet architecture, which is most common MSE loss for image Super Resolution. However MSE loss does not able to deal with high frequency content in the image that resulted in producing overly smooth images. Therefore the authors of the paper decided to  use loss of different VGG layers. This VGG loss is based on the ReLU activation layers of the pre-trained 19 layer VGG network. This loss is defined as follows:</li></ul> 
  <p align="center">
- <img style="text-align:center;" src="https://media.geeksforgeeks.org/wp-content/uploads/20200611204717/simplecontentloss.PNG">
- <img style="text-align:center;" src="https://user-images.githubusercontent.com/45875057/147368424-329fa6d9-d787-499d-b1a8-77efe6830567.png"></p>
+ <img style="text-align:center;" src="https://media.geeksforgeeks.org/wp-content/uploads/20200611204717/simplecontentloss.PNG"></p>
 
  <ul><li><b>Adversarial Loss:</b> The Adversarial loss is the loss function that forces the generator to image more similar to high resolution image by using a discriminator that is trained to differentiate between high resolution and super resolution images.</li></ul>
 
