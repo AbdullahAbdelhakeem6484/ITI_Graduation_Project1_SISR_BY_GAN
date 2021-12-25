@@ -47,7 +47,16 @@ This generator architecture also uses parametric ReLU as an activation function 
 </p>
 
 
+<ul><li>Therefore total content loss of this architecture will be :</li></ul>
 
+ <p align="center">
+<img width="40%" height="40%" src="https://user-images.githubusercontent.com/45875057/147381291-e4ce1041-1326-4f0b-bdca-eaa2cfc2df2a.png">
+</p>
+ 
+ 
+ 
+ 
+ 
 
 
 
