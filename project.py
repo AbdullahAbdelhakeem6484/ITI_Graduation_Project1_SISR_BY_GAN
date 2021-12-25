@@ -542,7 +542,26 @@ def save_images_test(original_image , sr_image, saved_path):
 	
 	
 
+	
+def SRGAN_predict(lr_image_path, model_path): 
+  img =lr_image_path  
+  lr_images = sample_images_test(img) 
+  # normalize the images 
+  lr_images = lr_images / 127.5 - 1. 
+  model=load_model(model_path) 
+  generated_images = model.predict_on_batch(lr_images) 
+  lr_images2 = lr_images.reshape((64,64,3)) 
+  generated_images2= generated_images.reshape((256,256,3)) 
+  return lr_images2,generated_images2
+  
+  
+def show_image(img):
+	_, axs = plt.subplots(1, 1, figsize=(6, 6))
+	axs.imshow((img + 1)/2.0, cmap='gray')
+	plt.show()
 
+
+	
 
 
 
@@ -621,20 +640,21 @@ model =load_model("/content/generator_model.h5")
 #_____________________
 
 #Prediction
-def SRGAN_predict(lr_image_path):
-  img =lr_image_path 
-  lr_images = sample_images_test(img)
-  # normalize the images
-  lr_images = lr_images / 127.5 - 1.
-
-  generated_images = model.predict_on_batch(lr_images)
-  lr_images2 = lr_images.reshape((64,64,3))
-  generated_images2= generated_images.reshape((256,256,3))
-  return generated_images2
+def SRGAN_predict(lr_image_path, model_path): 
+  img =lr_image_path  
+  lr_images = sample_images_test(img) 
+  # normalize the images 
+  lr_images = lr_images / 127.5 - 1. 
+  model=load_model(model_path) 
+  generated_images = model.predict_on_batch(lr_images) 
+  lr_images2 = lr_images.reshape((64,64,3)) 
+  generated_images2= generated_images.reshape((256,256,3)) 
+  return lr_images2,generated_images2
+  
 
   
 img_path ="/content/high_resolution/0009.png"
-generated_Image = SRGAN_predict(img_path)
+lr_images , generated_Image = SRGAN_predict(img_path)
 
 
 plt.imshow(generated_Image)
