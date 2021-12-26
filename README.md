@@ -261,7 +261,7 @@ show_image(SR_img)
 
 
 <p align="center">
-<img src="images/o.jpg>
+<img src="images/o.jpg">
 </p>
 
 
