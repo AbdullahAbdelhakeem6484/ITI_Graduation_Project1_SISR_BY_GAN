@@ -257,6 +257,12 @@ show_image(SR_img)
 <p align="center">
 <img src="images/out1.PNG">
 </p>
+</br>
+
+
+<p align="center">
+<img src="images/o.PNG">
+</p>
 
 
 
