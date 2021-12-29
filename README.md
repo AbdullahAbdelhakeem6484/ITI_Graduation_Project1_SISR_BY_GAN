@@ -224,36 +224,40 @@ python -m infer \ <br>
 <p>Our Package can be found in this link.
  <a href="https://pypi.org/project/SuperResolution-GANs/0.0.4/">https://pypi.org/project/SuperResolution-GANs/0.0.4/</a></p>
 
-1. Install:
+Generate **S R G A N ** Image
 
-```python
-pip install SuperResolution-GANs==0.0.4
-pip install -r requirements.txt
+1.Install:
+
 ```
-2. Download Our Model:
+pip install SuperResolution-GANs
+pip install keras==2.3.1
+pip install tensorflow_gpu==2.1.0
+pip install h5py==2.10.0 
+```
 
+
+2. Download Our Model
 ```python
 import gdown
-url = 'https://drive.google.com/uc?id=1MWDeLnpEaZDrKK-OjmzvYLxfjwp-GDcp'
+url = 'https://drive.google.com/uc?id=116fpSp3dUBtH7GkCoZ4UymK76xRTrZLs'
 output = 'model.h5'
 gdown.download(url, output, quiet=False)
-
 ```
 
-3. Generate Super Resolution Image:
-
+3.Generate Super Resolution Image:
 ```python
 from super_resolution_gans import srgan_utils
-LR_img,SR_img = srgan_utils.SRGAN_predict(lr_image_path"image.jpg", model_path="model.h5")
+LR_img,SR_img = srgan_utils.SRGAN_predict(lr_image_path, model_path , outputPath)
 ```
-4. show Super Resolution image:
-
+4.show Super Resolution image::
 ```python
 #Original Image (Low Resolution)
 show_image(LR_img)
 #Super Resolution Image
 show_image(SR_img)
 ```
+
+
 <p align="center">
 <img src="images/out1.PNG">
 </p>
