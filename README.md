@@ -219,7 +219,7 @@ python -m infer \ <br>
 
 
 
-p align="center">
+<p align="center">
 <img src="images/pip.PNG">
 </p>
 </br>
