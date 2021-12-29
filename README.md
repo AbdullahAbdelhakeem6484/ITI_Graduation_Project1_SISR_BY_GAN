@@ -219,6 +219,10 @@ python -m infer \ <br>
 
 
 
+p align="center">
+<img src="images/pip.PNG">
+</p>
+</br>
 
 <h1 color="green"><b>Instructions to Install our SRGAN Package</b></h1>
 <p>Our Package can be found in this link.
