@@ -272,6 +272,13 @@ show_image(SR_img)
 <img src="images/o.jpg">
 </p>
 
+<p align="center">
+<img src="images/catClass.PNG">
+</p>
+
+<p align="center">
+<img src="images/genericClass.PNG">
+</p>
 
 
 
