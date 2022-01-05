@@ -275,7 +275,7 @@ show_image(SR_img)
 <p align="center">
 <img src="images/catClass.PNG">
 </p>
-
+<br><br>
 <p align="center">
 <img src="images/genericClass.PNG">
 </p>
